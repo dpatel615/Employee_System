@@ -1,20 +1,20 @@
-INSERT INTO department (name)
-VALUES 
-('IT'),
-('Finance & Accounting'),
-('Sales & Marketing'),
-('Operations');
 
-INSERT INTO role (title, salary, department_id)
+
+INSERT INTO departments (department_name)
 VALUES
-('Full Stack Developer', 80000, 1),
-('Software Engineer', 120000, 1),
-('Accountant', 10000, 2), 
-('Finanical Analyst', 150000, 2),
-('Marketing Coordindator', 70000, 3), 
-('Sales Lead', 90000, 3),
-('Project Manager', 100000, 4),
-('Operations Manager', 90000, 4);
+  ("Sales"),
+  ("Managment"),
+  ("Customer Service"),
+  ("C-suite");
+
+INSERT INTO roles (job_title, salary, department_id)
+VALUES
+  ("Sales Rep", 40000, 1),
+  ("Sales Specialist", 60000, 1),
+  ("Sales Manager", 75000, 2),
+  ("Customer Service Rep", 30000, 3),
+  ("CEO", 150000, 4),
+  ("CFO", 100000, 4);
 
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
