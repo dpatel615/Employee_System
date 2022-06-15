@@ -18,7 +18,7 @@ The user should clone the repository from GitHub. This application requires Node
 ## Usage 
 This application will allow users to view, add, and edit employees, roles, departments, and managers. 
 
-View walk through video via [Screencastify]
+View walk through video via [Screencastify] (https://drive.google.com/file/d/1gnyQ06fMmEr3dfA8YJrfSw7l9DAllKyS/view?usp=sharing)
 ## License 
 This project is license under MIT
 
