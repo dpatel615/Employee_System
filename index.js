@@ -12,7 +12,7 @@ const db = mysql.createConnection(
   {
     host: 'localhost',
     user: 'root',
-    password: '',
+    password: 'Omsairam1298',
     database: 'Employee_db'
   },
   console.log(`Connected to the Employee_db database.`)
